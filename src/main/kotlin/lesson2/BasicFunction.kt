@@ -21,10 +21,13 @@ fun stopTheGreetings(itemToGreet: String) {
 // Can you string template instead of using the + symbol for concatenation
 fun fuckYou(intro: String, responding: String) = println("$intro, $responding")
 
+
+
 fun main() {
     println("Hello again")
     println(getGreeting())
     sayHello()
     stopTheGreetings("Newcomer")
     fuckYou("Hey Fucker!!!", "What did you say Bitch?")
+
 }
