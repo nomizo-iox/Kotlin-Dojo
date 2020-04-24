@@ -19,4 +19,22 @@ fun main() {
     interestingThings.forEach { interestingThing -> println(interestingThing) }
 
     interestingThings.forEachIndexed { index, interestingThing -> println("$interestingThing is at $index") }
+
+    val ia : IntArray = intArrayOf(1, 2, 3 ,4)
+
+    for (a in ia) { println(a) }
+
+    val list = listOf<String>("Kotlin", "Java", "Python", "C++")
+    for (a in list) { println(a) }
+
+    val map = mapOf<Int, String>(1 to "Kotlin", 2 to "Java", 3 to "Python", 4 to "C++")
+    for ((key, value) in map) {
+        println("$key => $value")
+    }
+
+    for (i in 1..9) { print(i) }
+
+    for (i in 1 until 10 step 2) { println(i) }
+
+    for (i in 9 downTo 1 ) { println(i) }
 }
